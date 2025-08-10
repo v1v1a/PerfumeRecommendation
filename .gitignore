@@ -1,25 +1,12 @@
-# Python venv
-venv/
-flask_server/venv/
+# Python virtual environment
+.venv/
 
-# Node modules
+# Mac 系统文件
+.DS_Store
+
+# Node.js dependencies
 node_modules/
-
-# Build outputs
-client/build/
 
 # Python cache
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-
-# Env files
-.env
-*.env
-
-# macOS system files
-.DS_Store
-
-# VSCode settings
-.vscode/
