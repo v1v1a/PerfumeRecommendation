@@ -77,40 +77,6 @@ npm start                              # CRA default: http://localhost:3000
 # If using Vite: npm run dev
 ```
 
-### 3) Configure Frontend API URL
-
-In `client`, set backend API URL via `.env` file:
-
-- **Create React App**:  
-
-  ```env
-  REACT_APP_API_BASE=http://127.0.0.1:8900
-  ```
-
-- **Vite**:  
-
-  ```env
-  VITE_API_BASE=http://127.0.0.1:8900
-  ```
-
-In frontend code, load the env variable:
-
-```js
-const API_BASE = import.meta?.env?.VITE_API_BASE || process.env.REACT_APP_API_BASE || "http://127.0.0.1:8900";
-```
-
----
-
-## Example API Endpoint
-
-- `POST /search_by_bert`  
-  **Body**: `{"query": "fresh perfume for summer"}`  
-  **Response**: Top-N recommended perfumes (with similarity/score fields)
-
-> Check actual endpoints in your Flask code (`flask_server/bert_search.py` etc.).
-
----
-
 ## Evaluation (example results)
 
 | Method                | Precision@5 | NDCG@5 |
@@ -161,8 +127,6 @@ git push
 
 ---
 
-## License
 
-MIT License
 
 
