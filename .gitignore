@@ -1,0 +1,25 @@
+# Python venv
+venv/
+flask_server/venv/
+
+# Node modules
+node_modules/
+
+# Build outputs
+client/build/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Env files
+.env
+*.env
+
+# macOS system files
+.DS_Store
+
+# VSCode settings
+.vscode/
