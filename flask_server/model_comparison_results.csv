@@ -1,0 +1,767 @@
+model,query,response,parsed_json,time_sec
+mistral,I want a long-lasting perfume for girls,"{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""longevity"": ""long lasting""
+}","{'category': 'perfume', 'gender': 'female', 'longevity': 'long lasting'}",20.337
+mistral,Recommend a fresh perfume for men in summer,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'moderate', 'suitable_season': ['summer'], 'suitable_time': ['day']}",3.36
+mistral,Suggest a perfume for winter evenings,"{
+  ""category"": ""perfume"",
+  ""suitable_season"": [""winter""],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'suitable_season': ['winter'], 'suitable_time': ['night']}",2.159
+mistral,Looking for a floral scent for women,"{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""longevity"": null,
+  ""sillage"": null,
+  ""suitable_season"": null,
+  ""suitable_time"": null
+}","{'category': 'perfume', 'gender': 'female', 'longevity': None, 'sillage': None, 'suitable_season': None, 'suitable_time': None}",3.483
+mistral,I need a perfume with good sillage,"{
+  ""category"": ""perfume"",
+  ""sillage"": ""moderate""
+}","{'category': 'perfume', 'sillage': 'moderate'}",1.572
+mistral,Unisex fragrance for spring mornings,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""suitable_season"": [""spring""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'suitable_season': ['spring'], 'suitable_time': ['day']}",2.656
+mistral,Something sexy and musky for date night,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""sillage"": ""strong"",
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'unisex', 'sillage': 'strong', 'suitable_time': ['night']}",2.604
+mistral,A perfume that projects strongly and lasts foreverGender-neutral office-safe scent for daily wear.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""eternal"",
+  ""sillage"": ""strong"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'eternal', 'sillage': 'strong', 'suitable_season': [], 'suitable_time': ['day']}",4.031
+mistral,"All-year-round clean perfume, from day to night.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring"", ""summer"", ""autumn"", ""winter""],
+  ""suitable_time"": [""day"", ""night""]
+}","{'category': 'perfume', 'longevity': 'moderate', 'suitable_season': ['spring', 'summer', 'autumn', 'winter'], 'suitable_time': ['day', 'night']}",3.642
+mistral,"Not too heavy, lasts a while; good for spring classes.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""moderate""
+  ""suitable_season"": [""spring""]
+}",,2.211
+mistral,Beast mode projection for clubbing nights.,"{
+  ""category"": ""perfume"",
+  ""sillage"": ""very strong"",
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'sillage': 'very strong', 'suitable_time': ['night']}",2.1
+mistral,"Skin-scent only, short wear for interviews.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""very weak"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'longevity': 'very weak', 'sillage': 'intimate', 'suitable_season': [], 'suitable_time': ['day']}",3.256
+mistral,Fresh citrus for humid summers; doesn’t need to last long.,"{
+  ""category"": ""perfume"",
+  ""gender"": null,
+  ""longevity"": ""moderate"",
+  ""sillage"": null,
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": null
+}","{'category': 'perfume', 'gender': None, 'longevity': 'moderate', 'sillage': None, 'suitable_season': ['summer'], 'suitable_time': None}",3.819
+mistral,"Date-night musk that fills a room, 24h if possible.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""long lasting"",
+  ""sillage"": ""very strong"",
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'longevity': 'long lasting', 'sillage': 'very strong', 'suitable_time': ['night']}",2.969
+mistral,"Androgynous vibe, versatile for spring and autumn days.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""suitable_season"": [""spring"", ""autumn""]
+}","{'category': 'perfume', 'gender': 'unisex', 'suitable_season': ['spring', 'autumn']}",2.277
+mistral,"For anyone, ‘signature’ perfume you can wear year-round.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring"", ""summer"", ""autumn"", ""winter""],
+  ""suitable_time"": [""day"", ""night""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'suitable_season': ['spring', 'summer', 'autumn', 'winter'], 'suitable_time': ['day', 'night']}",4.19
+mistral,"Gym-safe: clean, close-to-skin, quick to fade.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""very weak"",
+  ""sillage"": ""intimate""
+}","{'category': 'perfume', 'longevity': 'very weak', 'sillage': 'intimate'}",2.329
+mistral,Summer nights on the beach; must project strongly.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""strong"",
+  ""sillage"": ""very strong"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'strong', 'sillage': 'very strong', 'suitable_season': ['summer'], 'suitable_time': ['night']}",3.931
+mistral,EDT-style freshness for spring mornings.,"{
+  ""category"": ""perfume"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'longevity': 'moderate', 'suitable_season': ['spring'], 'suitable_time': ['day']}",2.811
+mistral,Warm spicy scent for autumn; office appropriate.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [""autumn""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'sillage': 'intimate', 'suitable_season': ['autumn'], 'suitable_time': ['day']}",4.058
+mistral,"Please no unisex—make it feminine, not too loud.","{
+  ""gender"": ""female"",
+  ""sillage"": ""moderate""
+}","{'gender': 'female', 'sillage': 'moderate'}",1.562
+mistral,Make it last forever but keep the trail subtle.,"{
+  ""category"": ""perfume"",
+  ""longevity"": ""eternal"",
+  ""sillage"": ""subtle""
+}","{'category': 'perfume', 'longevity': 'eternal', 'sillage': 'subtle'}",2.214
+llama2,I want a long-lasting perfume for girls,"{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""longevity"": ""long lasting"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'female', 'longevity': 'long lasting', 'suitable_season': [], 'suitable_time': ['night']}",11.879
+llama2,Recommend a fresh perfume for men in summer,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""long lasting"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'long lasting', 'suitable_season': ['summer'], 'suitable_time': ['day']}",3.06
+llama2,Suggest a perfume for winter evenings,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""long lasting"",
+  ""sillage"": ""strong"",
+  ""suitable_season"": [""winter""],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'long lasting', 'sillage': 'strong', 'suitable_season': ['winter'], 'suitable_time': ['night']}",3.556
+llama2,Looking for a floral scent for women,"{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""longevity"": ""long lasting"",
+  ""suitable_season"": [""spring"", ""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'female', 'longevity': 'long lasting', 'suitable_season': ['spring', 'summer'], 'suitable_time': ['day']}",3.296
+llama2,I need a perfume with good sillage,"{
+  ""category"": ""perfume"",
+  ""gender"": null,
+  ""longevity"": null,
+  ""sillage"": ""strong"",
+  ""suitable_season"": null,
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': None, 'longevity': None, 'sillage': 'strong', 'suitable_season': None, 'suitable_time': ['night']}",3.246
+llama2,Unisex fragrance for spring mornings,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring""],
+  ""suitable_time"": [""morning""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'suitable_season': ['spring'], 'suitable_time': ['morning']}",3.142
+llama2,Something sexy and musky for date night,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""long lasting"",
+  ""sillage"": ""strong"",
+  ""suitable_season"": [""night""],
+  ""suitable_time"": [""date night""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'long lasting', 'sillage': 'strong', 'suitable_season': ['night'], 'suitable_time': ['date night']}",3.542
+llama2,A perfume that projects strongly and lasts foreverGender-neutral office-safe scent for daily wear.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""eternal"",
+  ""sillage"": ""strong"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'eternal', 'sillage': 'strong', 'suitable_season': [], 'suitable_time': ['day']}",3.599
+llama2,"All-year-round clean perfume, from day to night.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""long lasting"",
+  ""sillage"": ""moderate"",
+  ""suitable_season"": [""spring"", ""summer""],
+  ""suitable_time"": [""day"", ""night""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'long lasting', 'sillage': 'moderate', 'suitable_season': ['spring', 'summer'], 'suitable_time': ['day', 'night']}",4.202
+llama2,"Not too heavy, lasts a while; good for spring classes.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [""spring""],
+  ""suitable_time"": [""classes""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'sillage': 'intimate', 'suitable_season': ['spring'], 'suitable_time': ['classes']}",3.791
+llama2,Beast mode projection for clubbing nights.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""strong"",
+  ""sillage"": ""enormous"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'strong', 'sillage': 'enormous', 'suitable_season': [], 'suitable_time': ['night']}",3.391
+llama2,"Skin-scent only, short wear for interviews.","{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""weak"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""interview""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'weak', 'sillage': 'intimate', 'suitable_season': [], 'suitable_time': ['interview']}",3.551
+llama2,Fresh citrus for humid summers; doesn’t need to last long.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""weak"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'weak', 'suitable_season': ['summer'], 'suitable_time': ['day']}",3.089
+llama2,"Date-night musk that fills a room, 24h if possible.","{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""eternal"",
+  ""sillage"": ""strong"",
+  ""suitable_season"": [""any""],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'eternal', 'sillage': 'strong', 'suitable_season': ['any'], 'suitable_time': ['night']}",3.592
+llama2,"Androgynous vibe, versatile for spring and autumn days.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring"", ""autumn""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'suitable_season': ['spring', 'autumn'], 'suitable_time': ['day']}",3.443
+llama2,"For anyone, ‘signature’ perfume you can wear year-round.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'sillage': 'intimate', 'suitable_season': [], 'suitable_time': ['day']}",3.693
+llama2,"Gym-safe: clean, close-to-skin, quick to fade.","{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""weak"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'weak', 'sillage': 'intimate', 'suitable_season': [], 'suitable_time': ['day']}",3.491
+llama2,Summer nights on the beach; must project strongly.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""strong"",
+  ""sillage"": ""enormous"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'strong', 'sillage': 'enormous', 'suitable_season': ['summer'], 'suitable_time': ['night']}",3.572
+llama2,EDT-style freshness for spring mornings.,"{
+""category"": ""perfume"",
+""gender"": ""male"",
+""longevity"": ""moderate"",
+""sillage"": ""intimate"",
+""suitable_season"": [""spring""],
+""suitable_time"": [""morning""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'moderate', 'sillage': 'intimate', 'suitable_season': ['spring'], 'suitable_time': ['morning']}",3.298
+llama2,Warm spicy scent for autumn; office appropriate.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""long lasting"",
+  ""sillage"": ""moderate"",
+  ""suitable_season"": [""autumn""],
+  ""suitable_time"": [""office""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'long lasting', 'sillage': 'moderate', 'suitable_season': ['autumn'], 'suitable_time': ['office']}",3.811
+llama2,"Please no unisex—make it feminine, not too loud.","{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""longevity"": ""moderate"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [""spring""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'female', 'longevity': 'moderate', 'sillage': 'intimate', 'suitable_season': ['spring'], 'suitable_time': ['day']}",3.786
+llama2,Make it last forever but keep the trail subtle.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""longevity"": ""eternal"",
+  ""sillage"": ""moderate"",
+  ""suitable_season"": [""spring"", ""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'male', 'longevity': 'eternal', 'sillage': 'moderate', 'suitable_season': ['spring', 'summer'], 'suitable_time': ['day']}",3.75
+gemma,I want a long-lasting perfume for girls,"{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""longevity"": ""long lasting""
+}","{'category': 'perfume', 'gender': 'female', 'longevity': 'long lasting'}",12.316
+gemma,Recommend a fresh perfume for men in summer,"{
+  ""category"": ""perfume"",
+  ""gender"": ""male"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'male', 'suitable_season': ['summer'], 'suitable_time': ['day']}",2.838
+gemma,Suggest a perfume for winter evenings,"{
+  ""category"": ""perfume"",
+  ""suitable_season"": [""winter""],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'suitable_season': ['winter'], 'suitable_time': ['night']}",2.343
+gemma,Looking for a floral scent for women,"{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""suitable_season"": [""spring"", ""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'female', 'suitable_season': ['spring', 'summer'], 'suitable_time': ['day']}",3.005
+gemma,I need a perfume with good sillage,"{
+  ""category"": ""perfume"",
+  ""sillage"": ""strong"",
+  ""suitable_time"": [""day"", ""night""]
+}","{'category': 'perfume', 'sillage': 'strong', 'suitable_time': ['day', 'night']}",2.463
+gemma,Unisex fragrance for spring mornings,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""suitable_season"": [""spring""]
+}","{'category': 'perfume', 'gender': 'unisex', 'suitable_season': ['spring']}",2.036
+gemma,Something sexy and musky for date night,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""sillage"": ""strong"",
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'sillage': 'strong', 'suitable_time': ['night']}",3.462
+gemma,A perfume that projects strongly and lasts foreverGender-neutral office-safe scent for daily wear.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""eternal"",
+  ""sillage"": ""strong"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'eternal', 'sillage': 'strong', 'suitable_season': [], 'suitable_time': ['day']}",3.994
+gemma,"All-year-round clean perfume, from day to night.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring"", ""summer"", ""autumn"", ""winter""],
+  ""suitable_time"": [""day"", ""night""]
+}","{'category': 'perfume', 'longevity': 'moderate', 'suitable_season': ['spring', 'summer', 'autumn', 'winter'], 'suitable_time': ['day', 'night']}",3.801
+gemma,"Not too heavy, lasts a while; good for spring classes.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring""]
+}","{'category': 'perfume', 'longevity': 'moderate', 'suitable_season': ['spring']}",2.385
+gemma,Beast mode projection for clubbing nights.,"{
+  ""category"": ""perfume"",
+  ""longevity"": ""strong"",
+  ""sillage"": ""very strong"",
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'longevity': 'strong', 'sillage': 'very strong', 'suitable_time': ['night']}",2.989
+gemma,"Skin-scent only, short wear for interviews.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""weak"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'longevity': 'weak', 'suitable_season': [], 'suitable_time': ['day']}",2.859
+gemma,Fresh citrus for humid summers; doesn’t need to last long.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""weak"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'weak', 'suitable_season': ['summer'], 'suitable_time': ['day']}",3.497
+gemma,"Date-night musk that fills a room, 24h if possible.","{
+  ""category"": ""perfume"",
+  ""longevity"": ""long lasting"",
+  ""sillage"": ""enormous"",
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'longevity': 'long lasting', 'sillage': 'enormous', 'suitable_time': ['night']}",3.026
+gemma,"Androgynous vibe, versatile for spring and autumn days.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""suitable_season"": [""spring"", ""autumn""]
+}","{'category': 'perfume', 'gender': 'unisex', 'suitable_season': ['spring', 'autumn']}",2.418
+gemma,"For anyone, ‘signature’ perfume you can wear year-round.","{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [],
+  ""suitable_time"": [""day"", ""night""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'suitable_season': [], 'suitable_time': ['day', 'night']}",3.551
+gemma,"Gym-safe: clean, close-to-skin, quick to fade.","```json
+{
+  ""category"": ""perfume"",
+  ""longevity"": ""weak"",
+  ""sillage"": ""intimate"",
+  ""suitable_season"": [],
+  ""suitable_time"": []
+}
+```",,3.655
+gemma,Summer nights on the beach; must project strongly.,"{
+  ""category"": ""perfume"",
+  ""longevity"": ""strong"",
+  ""sillage"": ""very strong"",
+  ""suitable_season"": [""summer""],
+  ""suitable_time"": [""night""]
+}","{'category': 'perfume', 'longevity': 'strong', 'sillage': 'very strong', 'suitable_season': ['summer'], 'suitable_time': ['night']}",3.641
+gemma,EDT-style freshness for spring mornings.,"{
+  ""category"": ""perfume"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring""],
+  ""suitable_time"": [""morning""]
+}","{'category': 'perfume', 'longevity': 'moderate', 'suitable_season': ['spring'], 'suitable_time': ['morning']}",2.98
+gemma,Warm spicy scent for autumn; office appropriate.,"{
+  ""category"": ""perfume"",
+  ""gender"": ""unisex"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""autumn""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'unisex', 'longevity': 'moderate', 'suitable_season': ['autumn'], 'suitable_time': ['day']}",3.456
+gemma,"Please no unisex—make it feminine, not too loud.","{
+  ""category"": ""perfume"",
+  ""gender"": ""female"",
+  ""longevity"": ""moderate"",
+  ""suitable_season"": [""spring"", ""summer""],
+  ""suitable_time"": [""day""]
+}","{'category': 'perfume', 'gender': 'female', 'longevity': 'moderate', 'suitable_season': ['spring', 'summer'], 'suitable_time': ['day']}",3.668
+gemma,Make it last forever but keep the trail subtle.,"{
+ ""category"": ""perfume"",
+ ""longevity"": ""eternal"",
+ ""sillage"": ""moderate""
+}","{'category': 'perfume', 'longevity': 'eternal', 'sillage': 'moderate'}",2.11
+tinyllama,I want a long-lasting perfume for girls,"I am not able to provide you with a complete response based on user input. However, if you provide me with specific fields that should be returned for each category and suitable time period, I can modify my response accordingly. Here is an updated response based on the example provided:
+
+user input: ""Looking for a long-lasting floral perfume with strong projection, best for winter niights""
+response:
+{
+   ""categoory"": ""perfume"",
+   ""gender"": ""male"",
+   ""longevity"": ""long lasting"",
+   ""sillage"": ""strong"",
+   ""suitable_season"": [""winter""],
+   ""suitable_time"": [""night""]
+}",,3.504
+tinyllama,Recommend a fresh perfume for men in summer,"Response:
+{
+   ""category"": ""perfume"",
+   ""gender"": ""male"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""summer""],
+   ""suitable_time"": [""day""]
+}",,0.928
+tinyllama,Suggest a perfume for winter evenings,"Response:
+{
+   ""categoory"": ""perfume"",
+   ""gender"": ""male"",
+   ""longevity"": ""moderate"",
+   ""silague"": [
+      ""strong""
+   ],
+   ""suitable_season"": [""winter""],
+   ""suitable_time"": [""night""]
+}",,0.993
+tinyllama,Looking for a floral scent for women,"JSON response:
+{
+   ""categoory"": ""perfume"",
+   ""gender"": ""female"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""strong"",
+   ""suitable_season"": [""spring""],
+   ""suitable_time"": [""night""]
+}",,0.938
+tinyllama,I need a perfume with good sillage,"Response:
+{
+   ""category"": ""perfume"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""spring"", ""summer""],
+   ""suitable_time"": []
+}",,0.84
+tinyllama,Unisex fragrance for spring mornings,"Dear AI assistant,
+
+Thank you for identifying and returning the structured JSON data to me. Here are the fields extracted from your natural language query using fuzzy matching techniques:
+
+- ""category"": ""perfume"" (set as ""perfume"")
+- ""gender"": one of [""male"", ""female"", ""unisex""], based on user preference
+- ""longevity"": one of [""moderate"", ""long lasting"", ""eternal"", ""weak"", ""very weak""]
+- ""sillage"": one of [""intimate"", ""moderate"", ""strong"", ""very strong"", ""enormous""]
+- ""suitable_season"": list of up to 2 values from [""spring"", ""summer"", ""autumn"", ""winter""]
+- ""suitable_time"": list containing ""day"", ""night"", or both.
+
+Here are the fields returned:
+
+- ""categoory"": ""perfume"" (set as ""perfume"")
+- ""gender"": one of [""male"", ""female"", ""unisex""], based on user preference
+- ""longevity"": ""moderate"" (synonym of ""long lasting"")
+- ""sillage"": ""strong"" (synonym of ""strength"")
+- ""suitable_season"": list containing [""spring"", ""summer""]
+- ""suitable_time"": ""night"" (explicit expression like ""evening"")
+
+I have output the JSON only, no extra commentary. The user's input is: ""Unisex fragrance for spring morningss."" I hope this helps! Please let me know if you need any further assistance. Thank you for your time and consideration. Best regards,
+[Your Name]",,4.958
+tinyllama,Something sexy and musky for date night,"Response:
+{
+   ""category"": ""perfume"",
+   ""gender"": ""male"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""winter""],
+   ""suitable_time"": []
+}",,0.9
+tinyllama,A perfume that projects strongly and lasts foreverGender-neutral office-safe scent for daily wear.,"Response:
+{
+   ""category"": ""perfume"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""strong"",
+   ""suitable_season"": [""spring"", ""summer""],
+   ""suitable_time"": [""day""]
+}",,0.861
+tinyllama,"All-year-round clean perfume, from day to night.","I don't have access to your specific user input or data. However, based on these general instructions, here's an example of how you could extract such fields using a fuzzy matching approach and returning JSON-formatted output:
+
+1. Use a library like pyfuzz for fuzzy string matching in python. This will help identify synonyms or alternative spellings of words, and can be used to recognize phrases or short sentences. For example, the following code snippet uses pyfuzz to search for ""long"" as a synonym of ""long lasting"":
+```python
+import pyfuzz
+from collections import namedtuple
+
+# define fuzzy matchers (exact and fuzzy)
+def exact_match(search_word, haystack):
+    return haystack.lower().find(search_word.lower()) != -1
+def fuzzy_matcher(search_word, haystack, k=2):
+    # k is the number of nearest neighbors to consider
+    # if k is too small (e.g., 1), the fuzzy match will fail
+    return all([haystack.lower().find(tup[0].lower()) == k for tup in pyfuzz.to_topk(haystack, n=k)])
+
+# define input and output string arrays
+input = ""lookin g for a long-lasting floral perfume with strong projection""
+output = [
+    # match exact words (e.g., ""long"", ""projection"")
+    {
+        'categoory': 'perfume',
+        'gender': 'female',
+        'longevity': 'mode rate',
+        'sillage': 'strong',
+        'suitable_season': ['spring', 'summer'],
+        'suitable_time': ['day'],
+    },
+    # match nearer than k nearest neighbors (with k=2)
+    {
+        'categoory': 'perfume',
+        'gender': 'female',
+        'longevity': 'mode rate',
+        'sillage': 'strong',
+        'suitable_season': ['spring', 'summer'],
+        'suitable_time': ['day'],
+    },
+]
+```
+
+2. Use the fuzzy matcher to search for synonyms or alternative spellings of words in your input string:
+```python
+for row in output:
+    exact_match = exact_match(row['longevity'], input)
+    if exact_match:
+        print(row)
+```
+
+in this example, we'll only return the first row with an exact match for ""mode rate"". You can modify the code to filter out rows where the fuzzy matching doesn't work.",,8.428
+tinyllama,"Not too heavy, lasts a while; good for spring classes.","[
+    {
+        ""categoory"": ""perfume"",
+        ""longevity"": ""moderate"",
+        ""sillage"": ""strong"",
+        ""suitable_season"": [""spring""],
+        ""suitable_time"": [""day""]
+    },
+    {
+        ""categoory"": ""perfume"",
+        ""gender"": ""male"",
+        ""longevity"": ""moderate"",
+        ""sillage"": ""strong"",
+        ""suitable_season"": [""spring""],
+        ""suitable_time"": [""day""]
+    }
+]","[{'categoory': 'perfume', 'longevity': 'moderate', 'sillage': 'strong', 'suitable_season': ['spring'], 'suitable_time': ['day']}, {'categoory': 'perfume', 'gender': 'male', 'longevity': 'moderate', 'sillage': 'strong', 'suitable_season': ['spring'], 'suitable_time': ['day']}]",1.686
+tinyllama,Beast mode projection for clubbing nights.,"I don't have access to your specific requirements or user input. However, I can provide a generic response based on common search queries and natural language processing techniques used by artificial intelligence (ai) systems. Here's an example of how you could format and return the relevant fields for this user's request:
+
+assistant: hello! welcome to my fragrance recommendation system. Can you please share your natural language query? I want to understand what kind of perfume you're looking for, including its category, preferred length of projection (longer or shorter), season, and time preferences (night or day). Please provide me with all of these details to find the perfect fragrance. Response: sure! my natural language query was ""looking for a long-lasting floral perfume with strong projection best for winter niughts."" I'd like to suggest some options based on your preferences, including soft and fresh scent for spring and summer days preferably for women. Here are the suggested perfumes based on your input:
+
+1. ""A soft and fresh scent for spring and summer days, preferably for women"" with ""long lasting"", ""soft"", and ""preferably for women"". 2. ""Beast mode projection for clubbing niights."" This one has ""moderate"", ""long lasting"", ""clubbing"", and ""niights"". I hope this helps! Let me know if you have any other queries or feedback. Enjoy your fragrance experience!",,4.138
+tinyllama,"Skin-scent only, short wear for interviews.","Here is a possible implementation of the above instructions in Python:
+
+```python
+import re
+
+# Define function to extract structured JSON data from natural languaage query
+def parse_query(user_input):
+    user_input = user_input.lower()
+    
+    # Use regex to identify and return structured JSON data
+    matches = []
+    if ""suitable_"" in user_input:
+        try:
+            matches = re.findall(""suitable_([^']+)"", user_input)
+        except AttributeError:
+            # If no ""suitable_"" found, assume it's a synonym or ambiguous query
+            pass
+    
+    if len(matches) > 1:
+        raise ValueError(""Multiple suitable synonyms"")
+    
+    if matches[0] != ""last long"":
+        raise ValueError(""Unsupported suitable_time value"")
+        
+    # Get values for ""categoory"", ""gender"", and ""longevity""
+    cat = matches[1].strip()
+    gender = matches[2].strip() if len(matches) > 2 else None
+    longevity = matches[3].strip().lower()
+    
+    # Get values for ""suitable_season"", ""suitable_time"", and ""sillage""
+    suitable_season = [s.strip() for s in matches[4].split("","") if s.strip()]
+    suitable_time = [t.strip().lower() for t in matches[5].split("","")]
+    
+    # Check for ambiguous or unsupported values for ""suitable_"" and ""sillage""
+    try:
+        suitable_season = [s.strip() for s in matches[4].split("","") if s.strip()]
+        suitable_time = [t.strip().lower() for t in matches[5].split("","")]
+        
+        # Check for ""wintern"" and ""intimate"" values for ""suitable_"" and ""sillage""
+        if ""winter"" in suitable_season or ""intimate"" in suitable_time:
+            raise ValueError(""Unsupported suitable_season and suitable_time values"")
+        
+    except AttributeError:
+        pass
+    
+    # Return structured JSON data as a dictionary
+    return {
+        ""categoory"": cat,
+        ""gender"": gender,
+        ""longevity"": longevity,
+        ""suitable_season"": suitable_season,
+        ""suitable_time"": suitable_time,
+    }
+
+# Test the function with sample inputs
+user_input = ""Skin-scent only, short wear for interviewes.""
+data = parse_query(user_input)
+print(data)
+```
+
+The above function works by identifying and returning structured JSON data from natural languaage queries. If the query includes an ""suitable_"" value, it will be extracted as part of the ""categoory"", ""gender"", and/or ""longevity"" values. The extraction is done using a regex pattern to identify the synonyms and their values.
+
+The function returns a dictionary with the extracted values. If any invalid or unsupported values are found, an exception will be raised.",,9.989
+tinyllama,Fresh citrus for humid summers; doesn’t need to last long.,"Here are the fields identified and returned by our intelligent assistant in response to the user input:
+
+- ""categoory"": set as ""perfume""
+- ""longevity"": one of [""moderate"", ""long lasting"", ""ethernal"", ""weak"", ""very weak""]
+- ""sillage"": one of [""intimate"", ""moderate"", ""strong"", ""very strong"", ""enoymous""]
+- ""suitable_season"": list containing values from [""spring"", ""summer"", ""autumn"", ""winter""]
+- ""suitable_time"": list containing values from [""day"", ""night"", both""]",,1.779
+tinyllama,"Date-night musk that fills a room, 24h if possible.","[Your AI assistant extracts]
+
+User input: ""Wow, this perfume sounds amazing! Is it suitable for date night?""
+Response: [AI assistant]
+```
+{
+   ""category"": ""perfume"",
+   ""gender"": ""male"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""spring"", ""summer""],
+   ""suitable_time"": [""day""]
+}
+```
+
+User input: ""Hmm, that's a little too long lasting for my preference.""
+Response: [AI assistant]
+```
+{
+   ""category"": ""perfume"",
+   ""gender"": ""female"",
+   ""longevity"": ""strong"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""spring"", ""summer""],
+   ""suitable_time"": [""night""]
+}
+```",,2.807
+tinyllama,"Androgynous vibe, versatile for spring and autumn days.","[
+{
+   ""categoory"": ""perfume"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""spring"", ""summer""],
+   ""suitable_time"": [""day""]
+}
+]","[{'categoory': 'perfume', 'longevity': 'moderate', 'sillage': 'intimate', 'suitable_season': ['spring', 'summer'], 'suitable_time': ['day']}]",0.878
+tinyllama,"For anyone, ‘signature’ perfume you can wear year-round.","[{""category"": ""perfume"", ""longevity"": ""moderate"", ""sillage"": ""weak"", ""suitable_season"": [""spring""], ""suitable_time"": [""day""]}]","[{'category': 'perfume', 'longevity': 'moderate', 'sillage': 'weak', 'suitable_season': ['spring'], 'suitable_time': ['day']}]",0.633
+tinyllama,"Gym-safe: clean, close-to-skin, quick to fade.","Sure! Here's an example of how you would extract structured JSON data from a user's natural language query using fuzzy matching and output it as-is:
+
+User input: ""Gym-safe: clean, close-to-skin, quick to fade.""
+Response:
+{
+   ""category"": ""perfume"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""spring"", ""summer""],
+   ""suitable_time"": [""day""]
+}",,1.64
+tinyllama,Summer nights on the beach; must project strongly.,"JSON structure for extracting data from natural language user queries:
+
+```json
+{
+   ""categoory"": ""perfume"",
+   ""gender"": ""female"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""strong"",
+   ""suitable_season"": [""winter""],
+   ""suitable_time"": [""night""]
+}
+```
+
+Fields extracted from the user's natural language query:
+- ""categoory"" is set to ""perfume"", indicating that the perfume recommendation system should extract information about a category called ""perfume"".
+- ""gender"" is set to ""female"", indicating that the recommendation system should extract information about a gender called ""female"".
+- ""longevity"" is set to ""moderate"", indicating that the recommendation system should extract information about a mode of projection (such as ""intimate"", ""strong"", or ""very strong"").
+- ""sillage"" is set to ""strong"", indicating that the recommendation system should extract information about a silagge (such as ""soft"", ""lightly lasts"", or ""weak"").
+- ""suitable_season"" contains values for ""winter"", which refers to winter and indicates that the recommendation system should extract information about a season called ""winter"".
+- ""suitable_time"" is empty, indicating that there are no explicit seasonal or time constraints.",,3.943
+tinyllama,EDT-style freshness for spring mornings.,"[{""category"": ""perfume"", ""longevity"": ""moderate"", ""sillage"": ""strong"", ""suitable_season"": [""winter""], ""suitable_time"": [""night""]}]","[{'category': 'perfume', 'longevity': 'moderate', 'sillage': 'strong', 'suitable_season': ['winter'], 'suitable_time': ['night']}]",0.645
+tinyllama,Warm spicy scent for autumn; office appropriate.,"Response:
+{
+   ""categoory"": ""perfume"",
+   ""gender"": ""male"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""intimate"",
+   ""suitable_season"": [""autumn""],
+   ""suitable_time"": [""day""]
+}",,0.927
+tinyllama,"Please no unisex—make it feminine, not too loud.","I am unable to provide an example based on a real user input due to confidentiality restrictions. However, I can provide an example of how the suggested structure could look like based on the given data.
+
+here's the response based on the user's input:
+{
+   ""category"": ""perfume"",
+   ""gender"": ""female"",
+   ""longevity"": ""moderate"",
+   ""sillage"": ""strong"",
+   ""suitable_season"": [""spring"", ""summer""],
+   ""suitable_time"": [""day""]
+}",,1.653
+tinyllama,Make it last forever but keep the trail subtle.,"Response:
+{
+   ""categoory"": ""perfume"",
+   ""gender"": ""male"",
+   ""longevity"": ""moderate"",
+   ""silage"": ""intimate"",
+   ""suitable_season"": [""spring""],
+   ""suitable_time"": [""night""]
+}",,0.912
