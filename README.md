@@ -3,7 +3,7 @@ The frontend is built with **React** (in `client/`), and the backend is built wi
 
 ---
 
-## Project Structure (matches your current repo)
+## Project Structure
 
 ```
 RESEARCHPROJECT1/
@@ -164,4 +164,5 @@ git push
 ## License
 
 MIT License
+
 
