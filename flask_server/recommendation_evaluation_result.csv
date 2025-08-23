@@ -1,0 +1,32 @@
+Query,Method,Precision@5,NDCG@5
+Sweet girly fragrance,Hybrid Recommendation,1.0,1.0
+Sweet girly fragrance,Keyword Match,0.0,0.0
+Sweet girly fragrance,Semantic Match,0.8,0.8
+Fresh summer fragrance,Hybrid Recommendation,0.8,0.8
+Fresh summer fragrance,Semantic Match,0.4,0.4
+Fresh summer fragrance,Keyword Match,0.0,0.0
+Sexy date fragrance,Hybrid Recommendation,0.6,0.6
+Sexy date fragrance,Keyword Match,0.0,0.0
+Sexy date fragrance,Semantic Match,0.4,0.4
+Unisex woody fragrance,Hybrid Recommendation,0.4,0.4
+Unisex woody fragrance,Keyword Match,0.0,0.0
+Unisex woody fragrance,Semantic Match,0.4,0.4
+Sweet fruity fragrance,Hybrid Recommendation,0.8,0.8
+Sweet fruity fragrance,Keyword Match,0.0,0.0
+Sweet fruity fragrance,Semantic Match,0.6,0.6
+Sporty and energetic scent,Keyword Match,0.0,0.0
+Sporty and energetic scent,Semantic Match,0.4,0.4
+Sporty and energetic scent,Hybrid Recommendation,0.6,0.6
+Oriental scent for dating,Semantic Match,0.4,0.4
+Oriental scent for dating,Keyword Match,0.0,0.0
+Oriental scent for dating,Hybrid Recommendation,0.4,0.4
+Woody floral scent,Semantic Match,0.6,0.6
+Woody floral scent,Hybrid Recommendation,0.6,0.6
+Woody floral scent,Keyword Match,0.0,0.0
+Campus everyday fragrance,Keyword Match,0.0,0.0
+Campus everyday fragrance,Semantic Match,0.6,0.6
+Campus everyday fragrance,Hybrid Recommendation,0.8,0.8
+Milky fragrance,Keyword Match,0.0,0.0
+Milky fragrance,Semantic Match,0.8,0.8
+Milky fragrance,Hybrid Recommendation,0.8,0.8
+

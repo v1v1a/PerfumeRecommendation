@@ -14,18 +14,16 @@ positive_rate = df["positive_rate"].to_numpy()
 
 # queries & keywords (for static annotation of "whether relevant")
 queries = {
-    "Sweet and girly scent": ["sweet", "vanilla", "fruity", "powdery"],
-    "Fresh scent for summer": ["fresh", "green", "citrus", "aqua"],
-    "Sexy fragrance for dating": ["sexy", "musk", "vanilla", "amber"],
-    "Gender-neutral woody scent": ["woody", "aromatic", "earthy", "green"],
-    "Light office fragrance": ["fresh", "clean", "light", "mild"],
-    "Sweet fruity scent": ["fruity", "sweet", "candy", "berry"],
-    "Sporty energetic fragrance": ["fresh", "citrus", "green", "aqua"],
-    "Oriental scent for dates": ["amber", "incense", "spicy", "oud"],
+    "Sweet girly fragrance": ["sweet", "vanilla", "fruity", "powdery"],
+    "Fresh summer fragrance": ["fresh", "green", "citrus", "aqua"],
+    "Sexy date fragrance": ["sexy", "musk", "vanilla", "amber"],
+    "Unisex woody fragrance": ["woody", "aromatic", "earthy", "green"],
+    "Sweet fruity fragrance": ["fruity", "sweet", "candy", "berry"],
+    "Sporty and energetic scent": ["fresh", "citrus", "green", "aqua"],
+    "Oriental scent for dating": ["amber", "incense", "spicy", "oud"],
     "Woody floral scent": ["woody", "floral", "powdery", "musk"],
-    "Daily campus scent": ["fruity", "fresh", "green", "light"],
-    "Natural forest-like scent": ["woody", "green", "pine", "herbal"],
-    "Milky scent": ["milky", "sweet", "powdery", "vanilla"],
+    "Campus everyday fragrance": ["fruity", "fresh", "green", "light"],
+    "Milky fragrance": ["milky", "sweet", "powdery", "vanilla"],
 }
 
 # relevance and metrics
